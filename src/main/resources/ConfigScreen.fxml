@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="CENTER" hgap="10.0" maxHeight="500" maxWidth="600" styleClass="text-id" style="-fx-background-color: #61A882"
+          xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="org.openjfx.controllers.ConfigScreenController">
+    <children>
+        <Text text="T-Bee-D" GridPane.columnSpan="2" GridPane.halignment="CENTER">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Text>
+        <Text text="Please enter a name" GridPane.rowIndex="1" />
+        <TextField fx:id="name" GridPane.rowIndex="2" />
+        <GridPane fx:id="keyboard" GridPane.rowIndex="3">
+            <columnConstraints>
+                <ColumnConstraints prefWidth="29"/>
+                <ColumnConstraints prefWidth="29"/>
+                <ColumnConstraints prefWidth="29"/>
+                <ColumnConstraints prefWidth="29"/>
+                <ColumnConstraints prefWidth="29"/>
+                <ColumnConstraints prefWidth="29"/>
+                <ColumnConstraints prefWidth="29"/>
+                <ColumnConstraints prefWidth="29"/>
+                <ColumnConstraints prefWidth="29"/>
+                <ColumnConstraints prefWidth="29"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints prefHeight="29"/>
+                <RowConstraints prefHeight="29"/>
+                <RowConstraints prefHeight="29"/>
+                <RowConstraints prefHeight="29"/>
+                <RowConstraints prefHeight="29"/>
+            </rowConstraints>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="0" GridPane.columnIndex="0"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="1" GridPane.columnIndex="1"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="2" GridPane.columnIndex="2"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="3" GridPane.columnIndex="3"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="4" GridPane.columnIndex="4"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="5" GridPane.columnIndex="5"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="6" GridPane.columnIndex="6"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="7" GridPane.columnIndex="7"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="8" GridPane.columnIndex="8"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="9" GridPane.columnIndex="9"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="A" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="B" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="C" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="D" GridPane.columnIndex="3" GridPane.rowIndex="1"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="E" GridPane.columnIndex="4" GridPane.rowIndex="1"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="F" GridPane.columnIndex="5" GridPane.rowIndex="1"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="G" GridPane.columnIndex="6" GridPane.rowIndex="1"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="H" GridPane.columnIndex="7" GridPane.rowIndex="1"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="I" GridPane.columnIndex="8" GridPane.rowIndex="1"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="J" GridPane.columnIndex="9" GridPane.rowIndex="1"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="K" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="L" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="M" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="N" GridPane.columnIndex="3" GridPane.rowIndex="2"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="O" GridPane.columnIndex="4" GridPane.rowIndex="2"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="P" GridPane.columnIndex="5" GridPane.rowIndex="2"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="Q" GridPane.columnIndex="6" GridPane.rowIndex="2"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="R" GridPane.columnIndex="7" GridPane.rowIndex="2"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="S" GridPane.columnIndex="8" GridPane.rowIndex="2"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="T" GridPane.columnIndex="9" GridPane.rowIndex="2"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="U" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="V" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="W" GridPane.columnIndex="2" GridPane.rowIndex="3"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="X" GridPane.columnIndex="3" GridPane.rowIndex="3"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="Y" GridPane.columnIndex="4" GridPane.rowIndex="3"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="Z" GridPane.columnIndex="5" GridPane.rowIndex="3"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="-" GridPane.columnIndex="6" GridPane.rowIndex="3"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="'" GridPane.columnIndex="7" GridPane.rowIndex="3"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="." GridPane.columnIndex="8" GridPane.rowIndex="3"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#typeCharacter"
+                    prefHeight="Infinity" prefWidth="Infinity" text="," GridPane.columnIndex="9" GridPane.rowIndex="3"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#changeCase"
+                    prefHeight="Infinity" prefWidth="Infinity" text="lower" GridPane.columnIndex="0"
+                    GridPane.columnSpan="3" GridPane.rowIndex="4"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#space" prefHeight="Infinity"
+                    prefWidth="Infinity" text="space" GridPane.columnIndex="3" GridPane.columnSpan="4"
+                    GridPane.rowIndex="4"/>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#backspace"
+                    prefHeight="Infinity" prefWidth="Infinity" text="backspace" GridPane.columnIndex="7"
+                    GridPane.columnSpan="3" GridPane.rowIndex="4"/>
+        </GridPane>
+        <Text text="Difficulty" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Slider fx:id="difficulty" blockIncrement="1" majorTickUnit="1.0" max="10" min="1" minorTickCount="0" showTickLabels="true" snapToTicks="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <VBox alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <Text text="Choose a starter weapon" />
+            <HBox>
+                <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" fx:id="sword" accessibleText="Sword" onAction="#setWeapon" prefHeight="46" prefWidth="46" style="-fx-padding: 0">
+                <graphic>
+                    <ImageView fitHeight="31" fitWidth="31" pickOnBounds="true" preserveRatio="true">
+                        <Image url="file:src/assets/images/weapon_sword.png" />
+                    </ImageView>
+                </graphic>
+                </Button>
+                <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" fx:id="blueberry" accessibleText="Blueberry" onAction="#setWeapon" prefHeight="46" prefWidth="46">
+                    <graphic>
+                        <ImageView fitHeight="31" fitWidth="31" pickOnBounds="true" preserveRatio="true">
+                            <Image url="file:src/assets/images/weapon_blueberry.png" />
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" fx:id="honey" accessibleText="Honey" onAction="#setWeapon" prefHeight="46" prefWidth="46">
+                    <graphic>
+                        <ImageView fitHeight="31" fitWidth="31" pickOnBounds="true" preserveRatio="true">
+                            <Image url="file:src/assets/images/weapon_honey.png" />
+                        </ImageView>
+                    </graphic>
+                </Button>
+            </HBox>
+            <Text fx:id="weaponName" text="No weapon">
+                <VBox.margin>
+                    <Insets bottom="11.0" />
+                </VBox.margin></Text>
+            <Button onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onAction="#startGame" prefHeight="46.0" prefWidth="138" text="Start" />
+        </VBox>
+    </children>
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints halignment="CENTER" prefWidth="138.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="48.0" />
+        <RowConstraints prefHeight="30.0" />
+        <RowConstraints prefHeight="30.0" />
+        <RowConstraints />
+    </rowConstraints>
+</GridPane>

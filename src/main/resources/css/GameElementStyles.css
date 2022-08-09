@@ -1,0 +1,8 @@
+.button {
+    -fx-background-color: #FFE068;
+    -fx-background-radius: 10;
+}
+.text-id {
+    -fx-font-family: "Futura";
+    -fx-font-weight: Bold;
+}

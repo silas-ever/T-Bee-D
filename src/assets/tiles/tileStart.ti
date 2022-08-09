@@ -1,0 +1,27 @@
+# This is an inline comment. We can use these to provide some sort of identification to these tiles.
+# Check the file org.openjfx.obstacles.Obstacles to see what each character represents
+# Here is what they represent as of 07/23/21
+# "x" represents a BoundaryTile.
+# "o" represents an empty tile.
+# "e" represents the exit tile.
+# "d" represents a door tile. !Only one door per side cardinal direction is allowed!
+# "s" is the spawn tile
+# "b" is an enemy spawn tile
+# Any other character is considered empty space.
+# Empty space is considered an obstacle
+# This program is not case sensitive so "x" == "X"
+# Maximum recommended map size is currently 21x14 (Same size as this map)
+xxxxxxxxxxxxxxxxxxxdx
+xooooooooooooooooooox
+xoosoooxxxxxxxxxxxxxx
+xoooooox
+xxoxxoxx
+xxoxxoxx
+xoooooox
+xooooooxxxxxxxxxxxxxx
+xooooooooooooooooooox
+xooooooooooooooooxoox
+xoxxxxxxxxxxxxxxxxood
+dooooooooooooooooooox
+xooooooooooooooooooox
+xxxxxxxxxdxxxxxxxxxxx
